@@ -45,6 +45,8 @@ Container {
 
     Label {
 
+
+
         property int labelCount: -1
 
         id: countdownLabel

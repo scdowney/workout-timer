@@ -41,6 +41,7 @@ ApplicationUI::ApplicationUI(bb::cascades::Application *app) :
     onSystemLanguageChanged();
 
     qmlRegisterType<QTimer>("Timer", 1, 0, "QTimer");
+    qmlRegisterType<WorkoutTracker>("WorkoutTracker", 1, 0, "WorkoutTracker");
 
     // Create scene document from main.qml asset, the parent is set
     // to ensure the document gets destroyed properly at shut down.
